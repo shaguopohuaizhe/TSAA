@@ -31,7 +31,7 @@ These models are trained on ImageNet and available in Pytorch.
   
 * Evaluations data:
   * randomly selected 5k images from [ImageNet](http://www.image-net.org/) Validation Set.
-  You can download evaluations data from [here](https://drive.google.com/drive/folders/1bztGsd_a1QRbM9tHG_qI7bWqzSsIiWih?usp=sharing).
+  You can download evaluations data from [here](https://drive.google.com/drive/folders/1z6fMGd-NFvKi1-tVG59ow7ZxHyEGfEGI?usp=sharing).
   
   
 ## Training
