@@ -1,6 +1,6 @@
 # Transferable Sparse Adversarial Attack
 
-Pytorch Implementation of "Transferable Sparse Adversarial Attack".
+Pytorch Implementation of our CVPR2022 paper "Transferable Sparse Adversarial Attack".
 
 ### Table of Contents  
 1) [Dependencies](#Dependencies) <a name="Dependencies"/>
@@ -49,6 +49,19 @@ This will start trainig a generator trained on one dataset (--train_dir) against
   python eval.py --test_dir [path_to_val] --model_type incv3 --model_t res50 --eps 255 --target 971 --checkpoint [path_to_checkpoint]
 ```
 This will load a generator trained against Inceptionv3 (--model_type) and evaluate clean and adversarial accuracy of ResNet50 (--model_t) under perturbation budget 255 (--eps) in a targeted setting (--target). <p>
+
+## Citation
+If you find this repo useful, please cite our paper.
+```bibtex
+@InProceedings{He_2022_CVPR,
+    author    = {He, Ziwen and Wang, Wei and Dong, Jing and Tan, Tieniu},
+    title     = {Transferable Sparse Adversarial Attack},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {14963-14972}
+}
+```
 
 
 
